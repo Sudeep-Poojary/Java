@@ -1,6 +1,6 @@
 public class IncDec {
     public static void main(String[] args) {
-        int x = 5, y, z;
+        int x = 5, y, z, a = 10, b, c;
 
         y = x++;
 
@@ -8,6 +8,13 @@ public class IncDec {
 
         System.out.println(y);
         System.out.println(z);
+
+        b = a--;
+
+        c = --a;
+
+        System.out.println(b);
+        System.out.println(c);
 
     }
 }
