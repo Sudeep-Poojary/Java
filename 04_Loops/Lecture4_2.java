@@ -20,14 +20,17 @@ public class Lecture4_2 {
                 System.out.print("Enter Marks of a student outoff 100: ");
                 int marks = sc.nextInt();
 
-                if (marks >= 90){
+                if (marks <= 100 && marks >= 90){
                     System.out.println("This is Good");
                 }
-                else if (89 >= marks && marks >= 60){
+                else if (marks <= 89 && marks >= 60){
                     System.out.println("This is also Good");
                 }
-                else {
+                else if (marks <= 59 && marks >= 35) {
                     System.out.println("This is Good as well");
+                }
+                else {
+                    System.out.println("Invalid number");
                 }
                 break;
 
