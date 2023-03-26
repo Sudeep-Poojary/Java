@@ -3,11 +3,11 @@ public class Lecture5_4 {
     public static void main(String[] args) {
         int n = 4;
 
-        //outter loop
+        // outter loop
         for (int i = n; i >= 1; i--) {
 
-            //inner loop
-            for (int j = 1; j <= i; j++){
+            // inner loop
+            for (int j = 1; j <= i; j++) {
 
                 System.out.print(" *");
             }
