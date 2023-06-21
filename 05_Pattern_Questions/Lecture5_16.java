@@ -9,12 +9,12 @@ public class Lecture5_16 {
 
             // Inner Loop
 
-            // Spaces
+            // 1. Spaces
             for (int j = 1; j <= n - i; j++) {
                 System.out.print("  ");
             }
 
-            // Stars
+            // 2. Stars
             for (int j = 1; j <= n; j++) {
 
                 if (i == 1 || j == 1 || i == n || j == n) {
